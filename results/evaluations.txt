@@ -1,0 +1,32 @@
+WITH PREVIOUS ACT
+TRAIN:
+Act f1 score: {'precision': 0.8822550885621906, 'recall': 0.8223691369999706, 'f1': 0.8282681101566272}
+Intent f1 score: {'precision': 0.7837060024626153, 'recall': 0.7311906345282417, 'f1': 0.7523859574366787}
+Slot-value accuracy: 0.7188195358053566
+
+DEV:
+Act f1 score: {'precision': 0.5971290317287584, 'recall': 0.5950010256321331, 'f1': 0.59275426783296}
+Intent f1 score: {'precision': 0.6990753308521666, 'recall': 0.7526599494486512, 'f1': 0.6938891850739488}
+Slot-value accuracy: 0.6953455571227081
+
+TEST:
+Act f1 score: {'precision': 0.61671646556401, 'recall': 0.600738324951187, 'f1': 0.6052494111013097}
+Intent f1 score: {'precision': 0.6975148048127761, 'recall': 0.7090137585024471, 'f1': 0.6903417202434142}
+Slot-value accuracy: 0.690299823633157
+
+=======================================================================
+NO PREVIOUS ACTS
+TRAIN:
+Act f1 score: {'precision': 0.8405155348241234, 'recall': 0.8086996617461994, 'f1': 0.817676180185175}
+Intent f1 score: {'precision': 0.804744515160616, 'recall': 0.7609325380369628, 'f1': 0.7794840815843768}
+Slot-value accuracy: 0.7293175442030404
+
+DEV:
+Act f1 score: {'precision': 0.5358225219912877, 'recall': 0.5454758763956082, 'f1': 0.5359208165340693}
+Intent f1 score: {'precision': 0.6940728304263444, 'recall': 0.6706201277730216, 'f1': 0.6811048211809538}
+Slot-value accuracy: 0.7227876900969944
+
+TEST:
+Act f1 score: {'precision': 0.5352218747134629, 'recall': 0.5458235249132417, 'f1': 0.534871258679976}
+Intent f1 score: {'precision': 0.6940773597923166, 'recall': 0.671289194463548, 'f1': 0.6815252046048296}
+Slot-value accuracy: 0.7155853483361264
